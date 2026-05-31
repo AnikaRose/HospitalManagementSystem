@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1780238306 source:/mnt/disk/Learn/C/Project/HospitalMangementSystem/function.c
+	<stdio.h>
+	"head.h"
+
+1780238405 /mnt/disk/Learn/C/Project/HospitalMangementSystem/head.h
+
+1780238373 source:/mnt/disk/Learn/C/Project/HospitalMangementSystem/main.c
+	<stdio.h>
+	"head.h"
+
