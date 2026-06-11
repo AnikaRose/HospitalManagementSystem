@@ -5,15 +5,30 @@ int main()
 {
     int choice;
 
-    while(1)
-    {
-        printf("\n===== Hospital Management System =====\n");
-        printf("1. Add Patient\n");
-        printf("2. View Patients\n");
-        printf("3. Exit\n");
+    while(1){
+    printf("\n");
+    printf(
+    "*****************************************************\n"
+    "*                                                   *\n"
+    "*           HOSPITAL MANAGEMENT SYSTEM              *\n"
+    "*                                                   *\n"
+    "*****************************************************\n"
 
-        printf("Enter Choice: ");
-        scanf("%d", &choice);
+);
+
+        printf("\n");
+        printf(" [1] Add Patient Record\n");
+        printf(" [2] View Patient Records\n");
+        printf(" [3] Exit System\n");
+        printf("\n");
+        printf(" Enter Choice: ");
+
+        if(scanf("%d", &choice) != 1)
+        {
+            printf("Invalid input!\n");
+            while(getchar() != '\n'); // clear buffer
+            continue;
+        }
 
         if(choice == 1)
         {
@@ -33,6 +48,5 @@ int main()
             printf("Invalid Choice!\n");
         }
     }
-
     return 0;
 }
