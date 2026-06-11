@@ -53,17 +53,16 @@ void viewPatient()
 
     printf("\n----- Patient List -----\n");
 
-    while(fscanf(fp,
-                 "%d %s %d",
-                 &p.id,
-                 p.name,
-                 &p.age) != EOF)
+    while(fscanf(fp, "%d %s %d", &p.id, p.name, &p.age) == 3)
     {
         printf("ID   : %d\n", p.id);
         printf("Name : %s\n", p.name);
         printf("Age  : %d\n", p.age);
         printf("----------------------\n");
     }
+    printf("\nPress Enter to continue...");
+    getchar();
+    getchar();
 
     fclose(fp);
 }
