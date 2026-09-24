@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1781806065 source:/mnt/disk/Learn/C/Rimi/hms/main.c
+	<stdio.h>
+	"head.h"
+
+1788019392 
+
+1781808471 /mnt/disk/Learn/C/Rimi/hms/head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1788023480 source:d:\hms\hms\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"head.h"
+	"ai.h"
+
+1788019392 d:\hms\hms\head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1788019392 d:\hms\hms\ai.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<time.h>
+
+1788026773 source:/mnt/disk/Learn/C/aysha/hms/hms/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"head.h"
+	"ai.h"
+
+1788026780 /mnt/disk/Learn/C/aysha/hms/hms/head.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1788026784 /mnt/disk/Learn/C/aysha/hms/hms/ai.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<time.h>
+
